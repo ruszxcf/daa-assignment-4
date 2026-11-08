@@ -1,0 +1,16 @@
+caught   (  199 failing checks)  lcs: the DP ignores the left neighbour
+caught   (  416 failing checks)  merge: the plan uses a wrong split point
+caught   (  592 failing checks)  merge: the window total is not added to the cost
+caught   (  314 failing checks)  tree: a child of a taken vertex may also be taken
+caught   (  657 failing checks)  tree: negative vertices are forced into the set
+caught   (  282 failing checks)  naive: the last valid start is missed
+caught   (  159 failing checks)  kmp: no fallback after a full match (overlaps lost)
+caught   (  250 failing checks)  kmp: empty pattern returns n instead of n+1 starts
+caught   (   20 failing checks)  rk: equal hashes are reported without verification
+caught   (  210 failing checks)  rk: negative remainder is not normalised
+caught   ( 2230 failing checks)  suffix: a missing second half sorts last instead of first
+caught   (  186 failing checks)  aho: counts are not pushed along failure links
+caught   (  255 failing checks)  aho: counts of the previous text are not reset
+caught   (  346 failing checks)  aho: missing goto edges are not completed
+survived (    0 failing checks)  suffix: Kasai h is reset instead of decremented (performance only)  [expected: output-equivalent]
+14 of 14 deliberate bugs were detected
